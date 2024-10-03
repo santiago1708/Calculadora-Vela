@@ -1,0 +1,42 @@
+header {
+    text-align: center;
+}
+
+
+.contenedor {
+    max-width: 20rem;
+    margin: 0 auto;
+    border: black 1px solid;
+    padding: 20px;
+}
+
+.contenedor section {
+    margin-bottom: 10px;
+}
+
+.numero {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.numero button {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px black solid;
+    cursor: pointer;
+}
+.resultadoAccion {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.resultadoAccion input {
+    width: 95%;
+    height: 40px;
+    border-radius: 10px; 
+}
+.operacion {
+    background-color: cyan;
+}
